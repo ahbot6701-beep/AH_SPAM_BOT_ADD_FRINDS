@@ -174,7 +174,7 @@ def load_tokens():
     if uid.strip() and tok.strip():
      tk[uid.strip()] = tok.strip()
  except Exception:
- pass
+     pass
  return tk
 
 def save_tokens(tk):
